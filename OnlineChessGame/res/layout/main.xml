@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginbg"
+    android:orientation="vertical" >
+
+  <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#8333"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/logo"
+            android:contentDescription="@string/logo"/>
+
+       <Button
+            android:id="@+id/startEasyGame"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-13dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/gameWithEasyComputer" />
+        
+        <Button
+            android:id="@+id/startGame"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/gameWithComputer" />
+
+        <Button
+            android:id="@+id/watchGame"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="13dp"
+            android:text="@string/gameWithGroup" />
+
+        <Button
+            android:id="@+id/watchBlog"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="13dp"
+            android:text="@string/watchBlog" />
+
+        <Button
+            android:id="@+id/loginOut"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="13dp"
+            android:text="@string/loginOut" />
+        
+        <Button
+            android:id="@+id/exit"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="13dp"
+            android:text="@string/exit" />
+    </LinearLayout>
+
+</LinearLayout>

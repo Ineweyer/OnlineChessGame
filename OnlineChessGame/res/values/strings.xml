@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 应用的基本设置 -->
+
+    <string name="app_name">OnlineChessGame</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- 登陆与注册部分 -->
+
+    <string name="username">用户名</string>
+    <string name="password">密     码</string>
+    <string name="password_again">确认密码</string>
+    <string name="login">登陆</string>
+    <string name="register">注册</string>
+    <string name="email">邮箱</string>
+    <string name="username_empty">请输入用户名.</string>
+    <string name="password_empty">请输入密码.</string>
+    <string name="sure_password_empty">请输入确认密码.</string>
+    <string name="email_empty">请输入邮箱.</string>
+    <string name="login_to_server">正在登陆中,请稍等.</string>
+    <string name="register_to_server">正在注册中,请稍等.</string>
+    <string name="fail_to_login">登陆失败，请稍后重试.</string>
+    <string name="fail_to_register">注册失败，请稍后重试.</string>
+    <string name="password_not_same">密码和确认密码不一致.</string>
+    <string name="register_fail">注册失败，请确认网络连接.</string>
+    <string name="register_success">注册成功，请登陆.</string>
+    <string name="no_accout_to_register">没用账户，注册</string>
+    <string name="register_to_login"> 已有账户，登陆</string>
+
+    
+    <!-- 主页面部分 -->
+    <string name="gameWithEasyComputer">新手陪练</string>
+    <string name="gameWithComputer">人机对弈</string>
+    <string name="gameWithGroup">在线对战</string>
+    <string name="watchGame">游戏直播间</string>
+    <string name="watchBlog">游戏论坛</string>
+    <string name="loginOut">注销登陆</string>
+    <string name="exit">退出游戏</string>
+    <string name="logo">应用logo</string>
+    <string name="chess">棋子</string>
+   
+    
+    <!-- 人机游戏界面 -->
+    <string name="computer">手机</string>
+    <string name="player">玩家</string>
+    <string name="currentPlayer">当前下棋者: </string>
+    <string name="time">游戏时间: </string>
+    <string name="regret">悔棋</string>
+    <string name="giveUp">重新开始</string>
+    <string name="gameSetting">游戏设置</string>
+    <string name="exitGame">返回主页</string>
+    <string name="segerate">:</string>
+    <string name="sureToNewGameTitle">重新开始游戏</string>
+    <string name="sureToNewGameText">确认重新开始游戏？</string>
+    <string name="sureToNewGameCertain">确认</string>
+    <string name="sureToNewGameConceil">取消</string>
+    <string name="timeOverDialogText">游戏时间结束</string>
+    <string name="timeOvweDialogTitle">结束时间</string>
+    <string name="exitGameDialogText">确定退出游戏？</string>
+    <string name="exitGameDialogCertain">确定</string>
+    <string name="exitGameDialogConceil">取消</string>
+    
+    <!-- 设置部分 -->
+    <string name="playerChessImageSelect">选择玩家棋子</string>
+    <string name="computerChessImageSelect">选择电脑棋子</string>
+    <string name="chessBackgroundSelect">选择背景</string>
+    <string name="chessBg">背景</string>
+    <string name="settingBack">确认修改</string>
+    <string name="gameSettingTitle">游戏设置</string>
+    <string name="cantChoseComputerImg">不能选择该颜色，因为已经被对手选择了</string>
+    
+    <!-- 结果部分 -->
+    <string name="youAreWin">恭喜你，胜利了！</string>
+    <string name="youAreLose">加油，下次一定能赢！</string>
+    <string name="onceMore">再来一局</string>
+    <string name="exitGameDirect">退出游戏</string>
+    
+     <!-- 在线博客系统 -->
+     <string name="blogToGame">返回游戏</string>
+     
+     <!-- 在线游戏部分 -->
+     <string name="waitCompeter">等待在线棋友</string>
+     <string name="competerComeIn">对手登入下棋室</string>
+     <string name="onlineGaming">游戏中。。。</string>
+     <string name="regretFail">悔棋失败，请检查网络</string>
+     <string name="cannotRegret">当前情况无法悔棋</string>
+     <string name="regretSeccuess">悔棋成功</string>
+     <string name="unConnect">未连接</string>
+     <string name="competerRegret">对手悔棋</string>
+     <string name="competerLoginOut">对手退出游戏</string>
+</resources>

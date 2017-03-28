@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="HandlerLeak">
+        <ignore path="src/cn/ineweyer/onlinechessgame/activity/EasyChessAct.java" />
+        <ignore path="src/cn/ineweyer/onlinechessgame/activity/GameWithComplexComputerAct.java" />
+        <ignore path="src/cn/ineweyer/onlinechessgame/activity/GameWithComputerAct.java" />
+        <ignore path="src/cn/ineweyer/onlinechessgame/activity/IntelligentChessAct.java" />
+        <ignore path="src/cn/ineweyer/onlinechessgame/activity/OnlineGame.java" />
+        <ignore path="src/cn/ineweyer/onlinechessgame/activity/OnlineGameAct.java" />
+    </issue>
+    <issue id="SetJavaScriptEnabled">
+        <ignore path="src/cn/ineweyer/onlinechessgame/activity/WatchBlogAct.java" />
+    </issue>
+</lint>

@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/document"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+  		android:textColor="#f000"
+        android:text="@string/gameSettingTitle"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/configUpdate"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/settingBack"
+            android:src="@drawable/configupdate" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" 
+                    android:layout_weight="1"
+                    android:gravity="center"
+  					android:textColor="#f000"
+                    android:text="@string/player"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+  					android:textColor="#f000"
+                    android:text="@string/computer"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+           <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/playerChessImg"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/player" />
+
+                <ImageView
+                    android:id="@+id/computerChessImg"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/computer" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="16sp" 
+  			android:textColor="#f000"
+            android:text="@string/playerChessImageSelect" />
+
+        <ImageView
+            android:id="@+id/chessImgOne"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/playerChessImageSelect"
+            android:src="@drawable/chess_img1" />
+
+        <ImageView
+            android:id="@+id/chessImgTwo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/playerChessImageSelect"
+            android:src="@drawable/chess_img2" />
+
+        <ImageView
+            android:id="@+id/chessImgThree"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/playerChessImageSelect"
+            android:src="@drawable/chess_img3" />
+
+        <ImageView
+            android:id="@+id/chessImgFour"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/playerChessImageSelect"
+            android:src="@drawable/chess_img4" />
+
+        <ImageView
+            android:id="@+id/chessImgFive"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/playerChessImageSelect"
+            android:src="@drawable/chess_img5" />
+
+        <ImageView
+            android:id="@+id/chessImgSix"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/playerChessImageSelect"
+            android:src="@drawable/chess_img6" />
+    </LinearLayout>
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="16sp" 
+  			android:textColor="#f000"
+            android:text="@string/computerChessImageSelect" />
+
+        <ImageView
+            android:id="@+id/chessImgOneC"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/playerChessImageSelect"
+            android:src="@drawable/chess_img1" />
+
+        <ImageView
+            android:id="@+id/chessImgTwoC"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/playerChessImageSelect"
+            android:src="@drawable/chess_img2" />
+
+        <ImageView
+            android:id="@+id/chessImgThreeC"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/playerChessImageSelect"
+            android:src="@drawable/chess_img3" />
+
+        <ImageView
+            android:id="@+id/chessImgFourC"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/playerChessImageSelect"
+            android:src="@drawable/chess_img4" />
+
+        <ImageView
+            android:id="@+id/chessImgFiveC"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/playerChessImageSelect"
+            android:src="@drawable/chess_img5" />
+
+        <ImageView
+            android:id="@+id/chessImgSixC"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/playerChessImageSelect"
+            android:src="@drawable/chess_img6" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+  			android:textSize="16sp" 
+  			android:textColor="#f000"          
+            android:text="@string/chessBackgroundSelect" />
+
+        <ImageView
+            android:id="@+id/chessBgOne"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/chessBackgroundSelect"
+            android:src="@drawable/chess_bg1" />
+
+        <ImageView
+            android:id="@+id/chessBgTwo"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/chessBackgroundSelect"
+            android:src="@drawable/chess_bg2" />
+
+        <ImageView
+            android:id="@+id/chessBgThree"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/chessBackgroundSelect"
+            android:src="@drawable/chess_bg3" />
+
+        <ImageView
+            android:id="@+id/chessBgFour"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/chessBackgroundSelect"
+            android:src="@drawable/chess_bg4" />
+    </LinearLayout>
+
+</LinearLayout>

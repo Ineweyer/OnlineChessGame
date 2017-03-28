@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="cn.ineweyer.onlinechessgame"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17"
+        tools:ignore="OldTargetApi" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="cn.ineweyer.onlinechessgame.activity.IndexUIAct" >
+        </activity>
+        <activity android:name="cn.ineweyer.onlinechessgame.activity.LoginAct" >
+        </activity>
+        <activity android:name="cn.ineweyer.onlinechessgame.activity.RegisterAct" >
+        </activity>
+        <activity
+            android:name="cn.ineweyer.onlinechessgame.activity.OnlineGameAct"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity android:name="cn.ineweyer.onlinechessgame.activity.WatchBlogAct" >
+        </activity>
+        <activity android:name="cn.ineweyer.onlinechessgame.activity.StartGameAct" >
+        </activity>
+        <activity
+            android:name="cn.ineweyer.onlinechessgame.activity.EasyChessAct"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="cn.ineweyer.onlinechessgame.activity.SettingAct"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="cn.ineweyer.onlinechessgame.activity.ResultAct"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="cn.ineweyer.onlinechessgame.activity.IntelligentChessAct"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape" >
+        </activity>
+    </application>
+
+</manifest>
